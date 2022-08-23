@@ -1,0 +1,2 @@
+[tool.poetry.scripts]
+{{cookiecutter.directory_name}} = '{{cookiecutter.directory_name}}.__main__:main'

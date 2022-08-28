@@ -1,2 +1,15 @@
 [tool.poetry.scripts]
-{{cookiecutter.directory_name}} = '{{cookiecutter.directory_name}}.__main__:main'
+{{cookiecutter.directory_name}} = '{{cookicutter.directory_name}}.__main__:main' # change me as needed
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "0.0.1"
+description = "{{cookiecutter.project_description}}"
+readme = "README.md"
+authors = [
+  "{{cookiecutter.author_name}}<{{cookiecutter.author_email}}>"
+]

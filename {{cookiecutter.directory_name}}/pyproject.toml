@@ -1,5 +1,5 @@
 [tool.poetry.scripts]
-{{cookiecutter.directory_name}} = '{{cookiecutter.directory_name}}.__main__:main' # change me as needed
+{{cookiecutter.directory_name}} = '{{cookiecutter.directory_name}}.__main__:main'# change me as needed
 
 [build-system]
 requires = ["poetry_core>=1.0.0"]
@@ -11,5 +11,5 @@ version = "0.0.1"
 description = "{{cookiecutter.project_description}}"
 readme = "README.md"
 authors = [
-  "{{cookiecutter.author_name}}<{{cookiecutter.author_email}}>"
+  "{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"
 ]
